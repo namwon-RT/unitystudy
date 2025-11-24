@@ -34,14 +34,14 @@
             //{
             //    Console.WriteLine(num2);
             //}
-            for (int n =0; n < 9; n++)
-            {
-                for(int m = 0; m < 9; m++)
-                {
-                    Console.WriteLine($"{n} {m}");
-                }
+            //for (int n =0; n < 9; n++)
+            //{
+            //    for(int m = 0; m < 9; m++)
+            //    {
+            //        Console.WriteLine($"{n} {m}");
+            //    }
                  
-            }
+            //}
 
             ////dowhile문
             //do //do 밑의 명령을 무조건 1번은 실행하고 while 조건이 참일경우 반복한다.while과 똑같으나 무조건 1번은 실행된다는점만 다르다.
@@ -52,7 +52,15 @@
 
             // for문
             // for (초기화; 조건; 조건변경)
+            for (int n = 2; n <= 9; n++)
+            {
+                Console.WriteLine($"{n}단");
+                for (int m = 1; m <= 9; m++)
+                {
+                    Console.WriteLine($"{n}*{m} = {n * m}");
+                }
 
+            }
         }
     }
 }

@@ -40,7 +40,7 @@
             //    {
             //        Console.WriteLine($"{n} {m}");
             //    }
-                 
+
             //}
 
             ////dowhile문
@@ -52,14 +52,39 @@
 
             // for문
             // for (초기화; 조건; 조건변경)
-            for (int n = 2; n <= 9; n++)
-            {
-                Console.WriteLine($"{n}단");
-                for (int m = 1; m <= 9; m++)
-                {
-                    Console.WriteLine($"{n}*{m} = {n * m}");
-                }
+            //for (int n = 2; n <= 9; n++)
+            //{
+            //    Console.WriteLine($"{n}단");
+            //    for (int m = 1; m <= 9; m++)
+            //    {
+            //        Console.WriteLine($"{n}*{m} = {n * m}");
+            //    }
 
+            //}
+            /*
+            2단
+            2 * 1 = 2
+            2 * 2 = 4
+            .
+            .
+            .
+            9단
+            .
+            .
+            .
+            9 * 9 =81
+             */
+            //for (int n = 2; n <= 9; ++n)
+            //{
+            //    Console.WriteLine($"{n} 단");
+            //    for (int m = 1; m <= 9; ++m)
+            //    {
+            //        Console.WriteLine($"{n}*{m} = {n*m}");
+            //    }
+            //}
+            for (int a = 1; a <= 5; ++a)
+            {
+                Console.Write($"*");
             }
         }
     }
